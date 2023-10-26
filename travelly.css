@@ -1,0 +1,188 @@
+/* Dekstop*/
+nav
+{
+    width: 88vw;
+    height: 10vh;
+    padding: 2vh 5vw 2vh 5vw;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #131c27;
+}
+h1
+{
+    color: white;
+}
+nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 30%;
+    justify-content: space-between;
+    margin-left: 70%;
+    margin-right: 0%;
+ 
+}
+nav li {
+    margin: 5px;
+}
+nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+section
+{
+    height: 100%;
+    padding: 38vh 5vw 38vh 5vw;
+}
+#MainContainer
+{
+    width: 100vw;
+    height: 86vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+#section1 {
+    background-image: url(landing-page.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h2 {
+    color: white;
+    font-size: 35px;
+    margin-left: 38%;
+    margin-right: 38%;
+}
+p {
+    color: white;
+    margin-left: 30%;
+    margin-right: 30%;
+    font-size: 20px;
+    text-align: center;
+}
+ 
+#section2 {  
+ 
+    background-image: url(new-york-page.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: lightgray;
+}
+ 
+h3 {
+    color: white;
+    font-size: 40px;
+    margin-left: 5%;
+    margin-right: 70%;
+    text-decoration: underline;
+}
+.flex-container > div {
+    background-color: blue;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    font-size: 25px;
+    margin-left: 47%;
+    margin-right: 45%;
+  }
+  h4{
+    color: white;
+    text-align: left;
+    font-size: 30px;
+  }
+#section3 {
+    background-color: white;
+}
+.footer {
+    position: absolute;
+    left: 0;
+    top: 231%;
+    width: 100%;
+    background-color: #131c27;
+    color: white;
+    text-align: center;
+  }
+  .flex-container2 {
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+  }
+ 
+  .flex-container2 > div {
+    background-color: lightgray;
+    width: 200px;
+    height: 250px;
+    margin: 150px;
+    text-align: center;
+    line-height: 150px;
+    font-size: 25px;
+    color: black;
+  }
+#section4 {
+    background-image: url(contact-mountain.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: lightgray;
+}
+h5 {
+    font-size: 40px;
+    text-align: center;
+    color: white;
+}
+input {
+    width: 50%;
+    margin-left: 30%;
+    margin-right: 45%;
+  }
+  h6 {
+    color: white;
+    font-size: 20px;
+    margin-left: 13%;
+    margin-right: 70%;
+    height: 10px;
+    text-align: center;
+  }
+  form {
+    background-color: #131c27;
+  }
+  .footer2 {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #131c27;
+    color: white;
+  }
+  /*phone*/
+@media only screen and (max-width: 760px) {
+    nav ul {
+        display: flex;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        width: 30%;
+        justify-content: space-between;
+        margin-left: 70%;
+        margin-right: 0%;
+    }  
+    .footer {
+        position: absolute;
+        display: column;
+        left: 0;
+        top: 231%;
+        width: 100%;
+        background-color: #131c27;
+        color: white;
+        text-align: center;
+      }
+      .flex-container2 {
+        display: column;
+        flex-direction: row;
+        background-color: white;
+      }
+}
